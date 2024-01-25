@@ -1,0 +1,86 @@
+.password-eye{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    background-color: white;
+    position: relative;
+    right: .5rem;
+}
+
+input{
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+input:focus{
+    outline: none;
+}
+.password-eye:focus{
+    outline: none;
+}
+.password-in{
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgba(156, 156, 156, 0.377);
+    border-radius: 4px;
+}
+#password{
+    border: none;
+}
+.main-bg{
+    background-image: url('../../joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+/* .loader {
+    width: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+  .ball {
+    list-style: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  
+  .ball:nth-child(1) {
+    animation: bounce-1 2.1s ease-in-out infinite;
+  }
+  
+  @keyframes bounce-1 {
+    50% {
+      transform: translateY(-18px);
+      background-color: aqua;
+    }
+  }
+  
+  .ball:nth-child(2) {
+    animation: bounce-3 2.1s ease-in-out 0.3s infinite;
+  }
+  
+  @keyframes bounce-2 {
+    50% {
+      transform: translateY(-18px);
+      background-color: aqua;
+    }
+  }
+  
+  .ball:nth-child(3) {
+    animation: bounce-3 2.1s ease-in-out 0.6s infinite;
+  }
+  
+  @keyframes bounce-3 {
+    50% {
+      transform: translateY(-18px);
+      background-color: aqua;
+    }
+  } */

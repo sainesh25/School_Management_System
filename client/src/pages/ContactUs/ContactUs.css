@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+.contact-us-bg{
+    background-image: url('./people-working-call-center_23-2149288184.avif');
+    background-size: cover;
+    /* background-position: 0rem -10rem; */
+    background-repeat: no-repeat;
+    height: 95vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-heading{
+    position: relative;
+    font-family: 'Lemon', serif;
+    color: white;
+    z-index: 2;
+    font-size: 4rem;    
+}
+.contact-us-bg::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+.contact{
+    display: flex;
+}
+.meet-us-phone{
+    display: flex;
+    align-items: center; 
+}
+.meet-us-subtxt{
+    color: black;
+    margin: .8rem 1rem;
+}
+.meet-us-head{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.address, .contact-map, .feedback{
+    padding: 2rem;
+    /* flex-grow: 1; */
+    width: 100%
+}
+.address{
+    padding-left: 2.5rem;
+}
+.contact-map{
+    padding: 0;
+}
+.feedback{
+
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.email-in{
+
+}
+.send-btn{
+    width: 100%;
+}
+.char-counter{
+    font-size: .8rem;
+}
+
+
+@media (max-width: 1200px){
+    
+}
+@media (max-width: 992px){
+    .contact{
+        flex-wrap: wrap;
+    }
+    .contact-us-bg{
+        height: 80vh;
+    }
+    .contact-heading{
+        font-size: 3.5rem;
+    }
+}
+@media (max-width: 767px){
+    .meet-us-head{
+        font-size: 2rem;
+    }
+    .meet-us-subtxt{
+        margin: .5rem 1rem;
+    }
+    .contact-heading{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 576px){
+    .contact-heading{
+        font-size: 2.5rem
+    }
+    .meet-us-head{
+        font-size: 1.5rem;
+    }
+    .meet-us-subtxt, .feedback-ins, .send-btn{
+        font-size: .7rem;
+    }
+    .contact-us-bg{
+        height: 60vh;
+    }
+    
+}
+@media (max-width: 400px){
+    .contact-heading{
+        font-size: 2rem;
+    }
+}
